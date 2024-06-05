@@ -1,5 +1,5 @@
-import MovieFinder from "../components/MovieFinder/MovieFinder";
-import MoviesList from "../components/MoviesList/MoviesList";
+import MovieFinder from "../../components/MovieFinder/MovieFinder";
+import MoviesList from "../../components/MoviesList/MoviesList";
 import { useState } from "react";
 
 export default function MoviesPage() {

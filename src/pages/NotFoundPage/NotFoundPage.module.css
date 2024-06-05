@@ -1,0 +1,11 @@
+.title {
+    text-align: center;
+    color: #190530;
+    font-weight: 400;
+}
+
+.styledLink {
+    color: #8019f7;
+    font-weight: 700;
+    text-decoration: underline;
+}

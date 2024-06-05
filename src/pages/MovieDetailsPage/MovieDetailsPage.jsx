@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
-import AboutMovie from "../components/AboutMovie/AboutMovie";
-import BackButton from "../components/BackButton/BackButton";
+import AboutMovie from "../../components/AboutMovie/AboutMovie";
+import BackButton from "../../components/BackButton/BackButton";
 
 export default function MovieDetailsPage() {
     const { id }  = useParams();

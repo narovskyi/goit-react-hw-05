@@ -1,4 +1,4 @@
-import TrendingMovies from '../components/TrendingMovies/TrendingMovies'
+import TrendingMovies from '../../components/TrendingMovies/TrendingMovies'
 
 export default function HomePage() {
     return (
