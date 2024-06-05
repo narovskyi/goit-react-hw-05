@@ -1,0 +1,27 @@
+.headerWrap {
+    padding: 20px 0;
+    font-size: 20px;
+    background-color: #a06cd9;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 100px;
+}
+
+.styledLink {
+    color: #190530;
+    font-size: 25px;
+    text-decoration: none;
+    &.active {
+        font-weight: 700;
+        color: #fceaff;
+    }
+    &:not(:last-child) {
+        margin-right: 20px;
+    }
+    
+}
