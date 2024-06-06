@@ -4,12 +4,12 @@ import ActorCard from "../ActorCard/ActorCard";
 import css from './MovieCast.module.css'
 
 export default function MovieCast() {
-    const { id } = useParams();
+    const { movieId } = useParams();
     const [actors, setActors] = useState();
     const [isError, setIsError] = useState();
 
     useEffect(() => {
-        fetch(`https://api.themoviedb.org/3/movie/${id}/credits?api_key=b6e502cbaaa880d060a13b6a3192abd0&language=en-US`)
+        fetch(`https://api.themoviedb.org/3/movie/${movieId}/credits?api_key=b6e502cbaaa880d060a13b6a3192abd0&language=en-US`)
             .then(response => response.json())
             .then(response => {
                 if (!response.success) {
@@ -21,7 +21,7 @@ export default function MovieCast() {
                 console.log(err);
                 setIsError(err);
             });
-    }, [id]);
+    }, [movieId]);
 
     return (
         <>

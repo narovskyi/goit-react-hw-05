@@ -5,11 +5,13 @@
     border-radius: 10px 0px 0px 10px;
     border: none;
     cursor: pointer;
+
     svg {
         display: block;
         height: 30px;
         width: 30px;
         color: #190530;
+
         &:active {
             color: #a06cd9;
         }
@@ -24,6 +26,7 @@
     border-radius: 0px 10px 10px 0px;
     border: none;
     background-color: #fceaff;
+
     &:focus-visible {
         outline: none;
     }

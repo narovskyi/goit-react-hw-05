@@ -1,7 +1,7 @@
 import { NavLink, useLocation } from "react-router-dom";
-import css from './MoviesList.module.css';
+import css from './MovieList.module.css';
 
-export default function MoviesList({ movies, path }) {
+export default function MovieList({ movies, path }) {
     const location = useLocation();
 
     return (
