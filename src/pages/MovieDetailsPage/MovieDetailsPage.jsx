@@ -8,7 +8,7 @@ export default function MovieDetailsPage() {
     const [movieObj, setMovieObj] = useState({});
     const [imageUrl, setImageUrl] = useState('');
     const location = useLocation();
-    const backLinkHref = location.state?.from ?? '/';
+    const backLinkHref = location.state?.from ?? '/movies';
 
     useEffect(() => {
         fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=b6e502cbaaa880d060a13b6a3192abd0&language=en-US`)
